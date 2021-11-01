@@ -39,4 +39,14 @@ class ViewController: UIViewController {
         bluetoothService.startScan()
     }
 }
+
+extension ViewController: BluetoothManagerDelegate {
+    func didDiscover(discoveredDevice peripheral: CBPeripheral) {
+        /// 검색된 기기 처리
+    }
+    
+    func didConnected(connectedDevice peripheral: CBPeripheral) {
+        /// 연결된 기기 처리
+    }
+}
 ```
