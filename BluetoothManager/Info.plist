@@ -21,5 +21,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>장치 검색을 위한 블루투스 권한이 필요합니다.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>주변 장치와 통신하기 위한 권한이 필요합니다.</string>
 </dict>
 </plist>
